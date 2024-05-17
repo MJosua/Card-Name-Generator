@@ -1,0 +1,166 @@
+body, * {
+  font-family: Arial, sans-serif; /* Fallback to sans-serif font if Arial is not available */
+}
+
+.border-radius-10px {
+  border-radius: 10px;
+}
+
+.shadow-inset {
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.base-kartunama {
+  width: 510.2362px;
+  height: 311.811px  ;
+  border-radius: 5px;
+  user-select: none;
+  padding: 0px;
+  padding-top:11.33px;
+
+}
+
+
+.PT-Indofood-CBP{
+  font-Size: 9.8px;
+  font-Weight: 900;
+}
+
+.logo-kartunama {
+  width: 187.0886;
+}
+
+.logo-kartunama-cbp {
+  width: 300px;
+}
+
+.footer-kartunama {
+  border-radius: 0px 0px 5px 5px;
+  height: 17.00787px;
+  background-color: #083484;
+}
+
+.nama-kartunama {
+  color:#083484;
+  font-size:17.6px;
+}
+
+.text-subsidiary{
+  color:#083484;
+  font-size: 13.4px;
+  font-weight: 500;
+}
+
+.no-gap {
+  margin-bottom: -5px;
+}
+
+.no-gap-print{
+  margin-bottom: -15px;
+}
+
+.up-gap {
+  margin-top: 5px;
+}
+
+.perusahaan-kartunama {
+  color: #0ea8e6;
+  position: relative;
+}
+
+.float-left {
+  float: left;
+}
+
+.logo-o {
+  color: red;
+  margin: 0px;
+  font-size: 12px;
+  float: left;
+}
+
+.cbp-text {
+  color: rgb(222, 31, 31);
+}
+
+.fs-18px {
+  font-size: 11.9px;
+}
+
+.fs-20px {
+  font-size: 11.9px;
+  font-weight: 400  ;
+}
+
+.fs-22px {
+  font-size: 13.4px;
+  font-weight: 400;
+}
+
+
+.file-select {
+  position: relative;
+  height: 40px;
+  background-color: #b5ae6b;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  font-weight: 700;
+  color: #4750ec;
+  user-select: none;
+  cursor: pointer;
+  margin-top: 5px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.pointer{
+  user-select: none;
+  cursor: pointer;
+
+}
+
+.overflow-x{
+  height: 200px;
+  overflow-x: auto;
+}
+
+.file-select:hover {
+  background-color: #ffec1ba0;
+  margin-top: 0px;
+  height: 45px;
+}
+
+.file-select.active {
+  height: 45px;
+  margin-top: 0px;
+  background-color: #ffec1b;
+}
+
+
+.file-select.active:hover {
+  background-color: #ffec1ba0;
+}
+
+.file-select:after {
+  content: "";
+  position: absolute;
+  margin: -20px;
+  width: 40px;
+  height: 20px;
+  left: -10px;
+  top: 0px;
+  transform: rotate(45deg);
+  background-color: #ffffff;
+  
+}
+
+.file-select.cbp {}
+
+.file-select.makmur {}
+
+.list-card{
+  height:200px;
+  max-height:250px;
+  
+}
